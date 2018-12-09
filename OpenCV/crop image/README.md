@@ -8,7 +8,7 @@ https://gaussian37.github.io/vision-opencv-roi-extraction/
 
 간단하게 실행하려면 아래와 같습니다.
 
-''' python
+''' 
 python crop_image.py --images "이미지 파일 경로"
 
 '''

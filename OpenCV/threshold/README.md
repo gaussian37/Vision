@@ -8,7 +8,7 @@ https://gaussian37.github.io/vision-opencv-%EC%9E%84%EA%B3%84%EA%B0%92-%EC%98%81
 간단하게 실행하려면 아래와 같습니다.
 
 ```  
-python threshold.py --image="이미지 파일 경로" --thresh=임계
+python threshold.py --image="이미지 파일 경로" --thresh=임계값
 ```
 
 ```

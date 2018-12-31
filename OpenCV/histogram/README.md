@@ -10,3 +10,6 @@ https://gaussian37.github.io/vision-opencv-histogram/
 ```  
 python histogramGrayscale.py --image="이미지 파일 경로" --bins=히스토그램사이즈
 ```
+
+![1](assets/histgray.png)
+

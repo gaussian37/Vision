@@ -7,9 +7,26 @@ https://gaussian37.github.io/vision-opencv-histogram/
 
 간단하게 실행하려면 아래와 같습니다.
 
++ histogramGrayscale : 그레이스케일 이미지로 변경 뒤 히스토그램을 구합니다.
+
 ```  
 python histogramGrayscale.py --image="이미지 파일 경로" --bins=히스토그램사이즈
 ```
 
 ![1](assets/histgray.png)
 
+<br>
+
++ histogramColor : 칼라 이미지의 RGB 값을 비교합니다.
+
+```
+python histogramGrayscale.py --image="이미지 파일 경로" --bins=히스토그램사이즈
+```
+
+![2](assets/colorhist.png)
+
+<br>
+
+![3](assets/colorhist2.png)
+
+<br>

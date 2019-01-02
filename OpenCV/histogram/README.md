@@ -30,3 +30,22 @@ python histogramGrayscale.py --image="이미지 파일 경로" --bins=히스토�
 ![3](assets/colorhist2.png)
 
 <br>
+
++ histogramEqualizationGray : 그레이스케일 이미지의 히스토그램 평활화를 적용합니다.
+
+```
+python histogramEqualizationGray.py --image="이미지 파일 경로" 
+```
+
+![4](assets/src1.png)
+![5](assets/dst1.png)
+![6](assets/grayscaleHistLenaImage.png)
+
++ histogramEqualizationColor : 컬러 이미지에 히스토그램 평활화를 적용합니다. (HSV, YCbCr의 밝기 부분만 적용하여 컬러값 유지) 
+
+```
+python histogramEqualizationColor.py --image="이미지 파일 경로" 
+```
+
+![7](assets/hsvDst.png)
+![8](assets/ycbcrDst.png)
